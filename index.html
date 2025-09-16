@@ -1,0 +1,96 @@
+<!DOCTYPE html> <!--tells us this is a html5 document-->
+<html lang="en"> <!--indicates the language is english-->
+<head>
+  <meta charset="UTF-8" /> <!-- ensures special characters and emojis are handled correctly-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Website</title> <!--sets the page title visible in the browser tab-->
+  <link rel="stylesheet" href="style.css"> <!--connect external css file to style the page-->
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar"> 
+    <div class="logo">Portfolio</div>
+    <nav>
+      <ul>
+        <li><a href="#">Experience</a></li>
+      </ul>
+    </nav>
+    <button id="theme-toggle">🌙</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Welcome to My digital resume</h1>
+    <p>Scroll down to learn more about myself.</p>
+    
+    <!-- Scroll button -->
+    <button onclick="document.getElementById('cards').scrollIntoView({behavior: 'smooth'});">
+      Scroll Down ⬇️
+    </button>
+  </section>
+
+
+  <!-- About Section -->
+  <section id="about" class="info">
+    <h2>About Myself</h2>
+    <p>I am a current Y4 Data science and Analytics student currently studying in the National University of Singapore. I am a motivated and curious individual who is always striving to learn more as well as upskill themselves.</p>
+  </section>
+
+ <!--Tech Sections-->
+<section id="tech" class = "info">
+    <h2>Technology background</h2>
+    <p>Some experience in Python, Java, SQL, R, HTML, CSS, JavaScript</p>
+    <p></p>
+</section>
+<!--Projects Done-->
+<section id = "projects" class = "info">
+    <h2>Projects Done/ Work experience</h2>
+    <p>DSA2101 </p>
+    <P>DSA3101 Machine Learning</P>
+    <p>ME2107 </p>
+    <p>
+        <H2>Internship/Work Experience: </H2>
+<h3>Sakuraya - Data Assistant (May 2024 - Aug 2024)</h3>
+
+<ul>
+    <li> Made use of <strong>VBA macros</strong> to automate filling processes</li></ul>
+
+
+<h3>Future Electronics — Supplier Development Manager (May 2025 – Dec 2025)</h3>
+<ul>
+<li>Developed <strong>interactive dashboards</strong> in Power BI, enabling data-driven insights for business stakeholders. </li>
+
+<li>Utilized <strong>Power Query</strong> to clean, transform, and model large datasets for reporting efficiency. </li>
+
+<li>Automated repetitive tasks using <strong>Python scripts and VBA macros</strong>, reducing manual effort and improving accuracy.</li>
+
+<li><strong>Designed workflow automations</strong> with Power Automate, streamlining cross-department processes. </li>
+
+<li>Collaborated with multiple teams to gather requirements, present findings, and ensure alignment with business goals. </li>
+
+<p><strong>Tools & Technologies: </strong> Power BI, Power Query, Python, Power Automate, VBA, Excel</ul></p>
+</section>
+
+  <!-- Services Section -->
+  <section id="other" class="info">
+    <h2>Other Information</h2>
+    <p><strong>Hobbies</strong></p>
+        <li>Baking, Climbing, Reading, Running.</li>
+    <p><strong>Languages</strong></p>
+        <li>English, Chinese, Japanese, Spanish, German</li>
+   
+
+
+
+        </p>
+  </section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Thank you for taking the time to visit this website!</p>
+  </footer>
+
+  <script src="script.js"></script> <!--link to javascript-->
+</body>
+</html>
